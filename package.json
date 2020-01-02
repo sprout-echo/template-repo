@@ -1,0 +1,22 @@
+{
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi test",
+    "lint:es": "eslint --ext .js src mock tests",
+    "lint:ts": "tslint \"src/**/*.ts\" \"src/**/*.tsx\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprout-echo/template-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprout-echo/template-repo/issues"
+  },
+  "homepage": "https://github.com/sprout-echo/template-repo#readme"
+}
